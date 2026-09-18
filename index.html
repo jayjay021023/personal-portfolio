@@ -4,9 +4,67 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>personal portfolio</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>salom dunyo</h1>
-    <p>frontend developer</p>
+    <header class="header">
+      <nav class="navbar">
+        <div class="logo">Alisher Portfoli</div>
+        <ul class="nav_link">
+          <li><a href="index.html" class="nav_link_a">Asosiy</a></li>
+          <li><a href="about.html" class="nav_link_a">Men haqimda</a></li>
+          <li><a href="contact.html" class="nav_link_a">Kontakt</a></li>
+        </ul>
+        <a href="contact.html" class="btn_hire">Meni yollang</a>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="box_top">
+        <div class="top_image">
+          <img src="pexels-ali-jafar-851025332-38818840.jpg" alt="Alisher" />
+        </div>
+        <div class="top_info">
+          <h1>Alisher</h1>
+          <p class="role">Frontend Developer</p>
+          <p class="desc">
+            Men oddiy va foydali web saytlar yaratishni yoqtiraman. Yangi
+            narsalar o'rganishni yoqtiraman va amaliyot orqali o'syapman
+          </p>
+          <button class="clic">Mening ishlarim</button>
+        </div>
+      </div>
+      <div class="box_bottom_left">
+        <h3>Men biladigan texnologiyalar</h3>
+        <div class="tech_list">
+          <span class="tech_items">HTML</span>
+          <span class="tech_items">CSS</span>
+          <span class="tech_items">JS</span>
+        </div>
+      </div>
+      <div class="box_bottom_right">
+        <h3>Mini Fibonacci counter</h3>
+        <div class="counter_box">
+          <div class="counter_val">12</div>
+          <div class="counter_btns">
+            <button class="btn_minus">-</button>
+            <button class="btn_reset">Qaytarish</button>
+            <button class="btn_plus">+</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <p class="footer_title">Amatlyst Portfolio</p>
+      <p class="footer_copy">
+        &copy; 2026 Alisher Portfolio. Barcha huquqlar himoyalangan.
+      </p>
+      <p class="footer_link">
+        <a href="#">Maxfiylik siyosati</a>
+        <span>·</span>
+        <a href="#">Xizmat ko'rsatish shartlari</a>
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
