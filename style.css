@@ -408,6 +408,138 @@ body {
   color: #6a0dad;
 }
 
+/*==contact==*/
+
+.contact {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.contact h1 {
+  text-align: center;
+  color: #6a0dad;
+  margin-bottom: 40px;
+  font-size: 32px;
+  position: relative;
+}
+
+.contact h1::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background-color: #6a0dad;
+  margin: 15px auto 0;
+  border-radius: 2px;
+}
+
+#contactForm {
+  border: 1px solid #666;
+  border-radius: 8px;
+  display: flex;
+  padding: 20px;
+  max-width: 500px;
+  width: 100%;
+  flex-direction: column;
+  gap: 15px;
+  margin: 0;
+}
+
+#contactForm label {
+  font-weight: bold;
+  color: #333;
+}
+
+#contactForm input,
+#contactForm textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: inherit;
+  width: 100%;
+}
+
+#contactForm input:focus,
+#contactForm textarea:focus {
+  outline: none;
+  border-color: #6a0dad;
+  box-shadow: 0 0 5px rgba(106, 13, 173, 0.3);
+}
+
+#contactForm button {
+  background-color: #6a0dad;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#contactForm button:hover {
+  background-color: #4b0082;
+}
+
+/*==social link==*/
+
+.social_links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 0 0 250px;
+  border: 1px solid #666;
+  border-radius: 8px;
+  text-align: center;
+  padding: 20px;
+}
+
+.social_links h2 {
+  color: #6a0dad;
+  margin-bottom: 20px;
+}
+
+.social_links a {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #6a0dad;
+  text-decoration: none;
+  border: 2px solid #6a0dad;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.social_links a:hover {
+  background-color: #6a0dad;
+  color: white;
+}
+
+.contact_text {
+  flex-basis: 100%;
+  border: 1px solid #666;
+  padding: 15px 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 40px;
+  color: #6a0dad;
+  font-size: 18px;
+  max-width: 600px;
+}
+
+.contact_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: center;
+  align-items: stretch;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 /*===footer===*/
 .footer {
   background-color: #e8e8ec;
