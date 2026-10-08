@@ -10,7 +10,7 @@ if (valueE1) {
   let count = 0;
 
   //===funksiyalar
-  function updateDisplay() {
+  const updateDisplay = () => {
     valueE1.textContent = count;
 
     //==0 bolish kerak
@@ -21,7 +21,7 @@ if (valueE1) {
       btnMinus.disabled = false;
       btnReset.disabled = false;
     }
-  }
+  };
 
   btnMinus.addEventListener("click", () => {
     if (count > 0) {

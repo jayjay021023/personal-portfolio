@@ -1,0 +1,29 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "shaxsiy portfoli saytim. HTML CSS va JavaScript yordamida yaratilgan.",
+  "main": "script.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayjay021023/personal-portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Aziza",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jayjay021023/personal-portfolio/issues"
+  },
+  "homepage": "https://github.com/jayjay021023/personal-portfolio#readme",
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "vite": "^8.3.3"
+  }
+}
