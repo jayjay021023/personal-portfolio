@@ -7,6 +7,7 @@ if (valueE1) {
   const btnPlus = document.querySelector(".btn_plus");
   const btnReset = document.querySelector(".btn_reset");
 
+  //==0 dan boshlanadi funcsiya
   let count = 0;
 
   //===funksiyalar
