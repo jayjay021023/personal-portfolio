@@ -205,6 +205,13 @@ body {
   background: #4b0082;
 }
 
+.btn_minus:disabled,
+.btn_reset:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
 /*====about page-container====*/
 .container_about {
   display: grid;
@@ -591,6 +598,18 @@ body {
 }
 
 /*==responsive==*/
+/*==katta ekran==*/
+@media (min-width: 1201) {
+  .navbar {
+    max-width: 1200px;
+    margin: 0;
+  }
+
+  .footer {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
 /*==planshet size==*/
 @media (max-width: 1024px) {
   .navbar {
@@ -599,6 +618,17 @@ body {
 
   .nav_link {
     gap: 15px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .contact_container {
+    gap: 30px;
+    padding: 15px;
+  }
+
+  .social_links {
+    flex: 0 0 220px;
   }
 }
 
@@ -659,17 +689,6 @@ body {
   }
   .footer a {
     color: #fff;
-  }
-}
-
-@media (max-width: 1024px) {
-  .contact_container {
-    gap: 30px;
-    padding: 15px;
-  }
-
-  .social_links {
-    flex: 0 0 220px;
   }
 }
 

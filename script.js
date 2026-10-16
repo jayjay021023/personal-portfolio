@@ -20,7 +20,7 @@ if (valueE1) {
       btnReset.disabled = true;
     } else {
       btnMinus.disabled = false;
-      btnResepdateDit.disabled = false;
+      btnReset.disabled = false;
     }
   };
 
