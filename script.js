@@ -20,10 +20,11 @@ if (valueE1) {
       btnReset.disabled = true;
     } else {
       btnMinus.disabled = false;
-      btnReset.disabled = false;
+      btnResepdateDit.disabled = false;
     }
   };
 
+  updateDisplay();
   btnMinus.addEventListener("click", () => {
     if (count > 0) {
       count--;
