@@ -5,6 +5,7 @@
 }
 
 body {
+  background-color: #fcf8ff;
   overflow-x: hidden;
   padding: 0;
   width: 100%;
@@ -84,7 +85,7 @@ body {
 
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 60px 40px;
 
   flex: 1;
   width: 100%;
@@ -227,6 +228,7 @@ body {
   width: 100%;
   margin: 0 auto;
   flex: 1;
+  padding-bottom: 60px;
 }
 
 .bottom_row {
@@ -378,7 +380,7 @@ body {
 
 /*===nav counter===*/
 .nav_counter {
-  background: #afc6f2;
+  background: #eeecfe;
   border-radius: 12px;
   padding: 25px;
 }
@@ -455,6 +457,7 @@ body {
 }
 
 #contactForm {
+  background-color: white;
   border: 1px solid #666;
   border-radius: 8px;
   display: flex;
@@ -474,6 +477,7 @@ body {
 
 #contactForm input,
 #contactForm textarea {
+  background-color: #eeecfe;
   padding: 12px;
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -507,6 +511,7 @@ body {
 /*==social link==*/
 
 .social_links {
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -574,7 +579,7 @@ body {
 
 /*===footer===*/
 .footer {
-  background-color: #e8e8ec;
+  background-color: #eeecfe;
   width: 100%;
   text-align: center;
   padding: 20px;
