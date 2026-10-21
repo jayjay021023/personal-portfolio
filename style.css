@@ -660,6 +660,65 @@ body {
     width: 100%;
     text-align: center;
   }
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    padding: 30px 20px;
+    gap: 15px;
+  }
+
+  .box_top {
+    grid-column: 1;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding: 25px 20px;
+  }
+
+  .top_info h1 {
+    font-size: 26px;
+  }
+
+  .desc {
+    flex-wrap: wrap;
+  }
+
+  .box_bottom_left,
+  .box_bottom_right {
+    grid-column: 1;
+    padding: 20px;
+  }
+
+  .tech_list {
+    flex-wrap: wrap;
+  }
+
+  .container_about {
+    grid-template-columns: 1fr;
+    padding: 30px 20px;
+    gap: 15px;
+  }
+
+  .about_nav {
+    grid-column: 1;
+  }
+
+  .about_nav h1 {
+    font-size: 26px;
+  }
+
+  .about_me {
+    grid-column: 1;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .bottom_row {
+    grid-column: 1;
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
 }
 
 /*telefon un*/
@@ -670,6 +729,36 @@ body {
 
   .nav_link_a {
     font-size: 14px;
+  }
+
+  .container {
+    padding: 20px 15px;
+  }
+
+  .top_image img {
+    width: 130px;
+    height: 130px;
+  }
+
+  .top_info h1 {
+    font-size: 22px;
+  }
+
+  .counter_val {
+    font-size: 36px;
+  }
+
+  .container_about {
+    padding: 20px 15px;
+  }
+
+  .about_nav h1 {
+    font-size: 22px;
+  }
+
+  .about_img {
+    width: 110px;
+    height: 110px;
   }
 
   .contact h1 {
